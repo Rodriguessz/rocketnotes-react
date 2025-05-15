@@ -1,8 +1,32 @@
-# React + Vite
+# Rocketnotes WEB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge de status do projeto](https://img.shields.io/badge/status-completo-brightgreen)
 
-Currently, two official plugins are available:
+Rocketnotes WEB é a interface front-end da aplicação Rocketnotes, projetada para interagir com a Rocketnotes API e proporcionar uma experiência completa de gerenciamento de notas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Índice
+
+- [Descrição](#descrição)
+- [Requisitos](#requisitos)
+- [Setup](#setup)
+
+## Descrição
+
+Rocketnotes WEB é uma aplicação desenvolvida com ReactJS e styled-components, que se conecta à Rocketnotes API para permitir a criação, visualização, organização e exclusão de notas. As notas podem ser personalizadas com tags e outras características, oferecendo uma interface intuitiva e responsiva para os usuários.
+
+## Requisitos
+
+- Node.js
+- Navegador Web (Google Chrome, Firefox, etc)
+
+## Setup
+
+Siga os passos abaixo para configurar e executar a aplicação:
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/rocketnotes-web.git
+cd rocketnotes-web
+npm i
+npm run dev
